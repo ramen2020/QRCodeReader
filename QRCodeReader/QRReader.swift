@@ -78,18 +78,12 @@ public struct QRReader: UIViewControllerRepresentable {
 
         override public func viewWillAppear(_ animated: Bool) {
             super.viewWillAppear(animated)
-
-            if captureSession?.isRunning == false {
-                captureSessionStart()
-            }
+            captureSessionStart()
         }
 
         override public func viewWillDisappear(_ animated: Bool) {
             super.viewWillDisappear(animated)
-
-            if captureSession?.isRunning == true {
-                captureSessionStop()
-            }
+            captureSessionStop()
         }
         
         // settings required to scan qr codes
@@ -128,12 +122,16 @@ public struct QRReader: UIViewControllerRepresentable {
 
         // capture start
         public func captureSessionStart() {
-            captureSession.startRunning()
+            if captureSession?.isRunning == false {
+                captureSession.startRunning()
+            }
         }
 
         // capture stop
         public func captureSessionStop() {
-            captureSession.stopRunning()
+            if captureSession?.isRunning == true {
+                captureSession.stopRunning()
+            }
         }
         
         // Analysis range to scan a QR code
