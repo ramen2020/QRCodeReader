@@ -14,6 +14,8 @@
 		667A36712786DB1A007159FF /* QRCodeReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667A36702786DB1A007159FF /* QRCodeReaderTests.swift */; };
 		667A367C2786DB1A007159FF /* QRCodeReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667A367B2786DB1A007159FF /* QRCodeReaderUITests.swift */; };
 		667A368C2786DD9B007159FF /* QRCodeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667A368B2786DD9B007159FF /* QRCodeScanner.swift */; };
+		667A368E2786F4D4007159FF /* ScanAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667A368D2786F4D4007159FF /* ScanAlert.swift */; };
+		667A36902786F6C6007159FF /* ScanResultType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667A368F2786F6C6007159FF /* ScanResultType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		667A367B2786DB1A007159FF /* QRCodeReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeReaderUITests.swift; sourceTree = "<group>"; };
 		667A367D2786DB1A007159FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		667A368B2786DD9B007159FF /* QRCodeScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeScanner.swift; sourceTree = "<group>"; };
+		667A368D2786F4D4007159FF /* ScanAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanAlert.swift; sourceTree = "<group>"; };
+		667A368F2786F6C6007159FF /* ScanResultType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanResultType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				667A365E2786DB18007159FF /* QRCodeReaderApp.swift */,
+				667A368D2786F4D4007159FF /* ScanAlert.swift */,
+				667A368F2786F6C6007159FF /* ScanResultType.swift */,
 				667A36602786DB18007159FF /* ContentView.swift */,
 				667A368B2786DD9B007159FF /* QRCodeScanner.swift */,
 				667A36622786DB1A007159FF /* Assets.xcassets */,
@@ -265,6 +271,8 @@
 				667A36612786DB18007159FF /* ContentView.swift in Sources */,
 				667A365F2786DB18007159FF /* QRCodeReaderApp.swift in Sources */,
 				667A368C2786DD9B007159FF /* QRCodeScanner.swift in Sources */,
+				667A368E2786F4D4007159FF /* ScanAlert.swift in Sources */,
+				667A36902786F6C6007159FF /* ScanResultType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
